@@ -17,12 +17,14 @@ export default function Home() {
                             height={75}
                             width={75}
                             alt="Logo"
-                            color="#FFFFFF"
                             className="sm:mt-5 sm:mr-5 lg:mr-5 lg:mt-5"
                         />
-                        <h1 className="pt-6 my-auto text-4xl font-bold text-center lg:text-7xl">
-                            APHS Makers Competition
-                        </h1>
+
+                        <div className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text">
+                            <h1 className="pt-6 my-auto text-4xl font-bold text-center text-transparent lg:text-7xl">
+                                APHS Makers Competition
+                            </h1>
+                        </div>
                     </div>
                     <h3 className="text-xl text-center text-white lg:text-2xl">
                         November 13th - December 4th
@@ -34,13 +36,15 @@ export default function Home() {
                     </a>
                 </div>
             </section>
-            <section className="h-[500px] w-[350px] lg:h-[400px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
-                <div className="absolute h-[500px] w-[350px] lg:h-[400px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
-                <div className="relative z-20 w-full h-full p-12 bg-black ">
-                    <h2 className="mb-6 text-2xl font-bold text-center lg:text-6xl group-drop-shadow-lg">
-                        Bring your ideas to life!
-                    </h2>
-                    <p className="text-xl lg:text-2xl text-">
+            <section className="h-[360px] w-[350px] lg:h-[300px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                <div className="absolute h-[360px] w-[350px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-red-600 to-purple-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="relative z-20 w-full h-full p-12 bg-black">
+                    <div className="bg-gradient-to-r from-red-600 to-purple-500 bg-clip-text">
+                        <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
+                            Bring your ideas to life!
+                        </h2>
+                    </div>
+                    <p className="text-xl lg:text-3xl">
                         Compete in Abbey Parks first ever Computer Engineering
                         Competition, submit a creation using an Arduino or
                         something to win.
