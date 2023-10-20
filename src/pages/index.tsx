@@ -1,16 +1,60 @@
+import Head from "next/head";
 import Image from "next/image";
+import IcSVG from "@/assets/ic.svg";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between w-full">
-            <section className="flex flex-col items-center justify-center h-[400px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full border-b-2 border-slate-500">
-                <h1 className="text-7xl font-bold text-center py-6">
-                    Abbey Park Arduino Competition
-                </h1>
-                <h3 className="text-3xl text-center text-slate-200">
-                    November 13th - December 4th
-                </h3>
+        <main className="flex flex-col items-center justify-between w-full min-h-screen">
+            <Head>
+                <title>APMC</title>
+            </Head>
+            <section className="h-[400px] w-full lg:mb-14 group">
+                <div className="h-[400px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
+                <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
+                    <div className="flex flex-row flex-wrap content-center justify-center">
+                        <Image
+                            src={IcSVG}
+                            height={75}
+                            width={75}
+                            alt="Logo"
+                            color="#FFFFFF"
+                            className="sm:mt-5 sm:mr-5 lg:mr-5 lg:mt-5"
+                        />
+                        <h1 className="pt-6 my-auto text-4xl font-bold text-center lg:text-7xl">
+                            APHS Makers Competition
+                        </h1>
+                    </div>
+                    <h3 className="text-xl text-center text-white lg:text-2xl">
+                        November 13th - December 4th
+                    </h3>
+                    <a href="https://google.com" target="_blank">
+                        <button className="px-8 py-2 mt-8 text-2xl transition duration-1000 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl delay-50 hover:scale-125 hover:text-green-400">
+                            Register
+                        </button>
+                    </a>
+                </div>
             </section>
+            <section className="h-[500px] w-[350px] lg:h-[400px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                <div className="absolute h-[500px] w-[350px] lg:h-[400px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="relative z-20 w-full h-full p-12 bg-black ">
+                    <h2 className="mb-6 text-2xl font-bold text-center lg:text-6xl group-drop-shadow-lg">
+                        Bring your ideas to life!
+                    </h2>
+                    <p className="text-xl lg:text-2xl text-">
+                        Compete in Abbey Parks first ever Computer Engineering
+                        Competition, submit a creation using an Arduino or
+                        something to win.
+                    </p>
+                </div>
+            </section>
+            {/* <section className="h-[300px] lg:h-[200px] w-full mt-auto mb-0 group">
+                <div className="h-[300px] lg:h-[200px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
+                <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
+                    <h3 className="text-xl text-center text-white lg:text-2xl">
+                        November 13th - December 4th
+                    </h3>
+                </div>
+            </section> */}
         </main>
     );
 }
