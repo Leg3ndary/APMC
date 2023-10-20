@@ -1,3 +1,3 @@
-# AAC
+# APMC
 
-Official website for the 2024 AAC
+Official website for the 2024 Abbey Park Makers Competition
