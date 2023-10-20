@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import IcSVG from "@/assets/ic.svg";
+import ESP32 from "@/assets/esp32.png";
 
 export default function Home() {
     return (
@@ -51,14 +52,81 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-            {/* <section className="h-[300px] lg:h-[200px] w-full mt-auto mb-0 group">
-                <div className="h-[300px] lg:h-[200px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
+            <section
+                id="prizes"
+                className="w-[400px] lg:w-full flex flex-col justify-center content-center flex-wrap"
+            >
+                <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                    <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                    <div className="relative z-20 w-full h-full p-12 bg-black">
+                        <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
+                            <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
+                                First Prize
+                            </h2>
+                        </div>
+                        <Image
+                            src={ESP32}
+                            alt="ESP 32"
+                            className="mx-auto w-[200px] lg:w-[400px] p-8"
+                        />
+                        <p className="text-xl lg:text-3xl">
+                            Compete in Abbey Parks first ever Computer
+                            Engineering Competition, submit a creation using an
+                            Arduino or something to win.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex justify-center">
+                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                        <div className="relative z-20 w-full h-full p-12 bg-black">
+                            <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
+                                <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
+                                    First Prize
+                                </h2>
+                            </div>
+                            <Image
+                                src={ESP32}
+                                alt="ESP 32"
+                                className="mx-auto w-[200px] lg:w-[400px] p-8"
+                            />
+                            <p className="text-xl lg:text-3xl">
+                                Compete in Abbey Parks first ever Computer
+                                Engineering Competition, submit a creation using
+                                an Arduino or something to win.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                        <div className="relative z-20 w-full h-full p-12 bg-black">
+                            <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
+                                <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
+                                    First Prize
+                                </h2>
+                            </div>
+                            <Image
+                                src={ESP32}
+                                alt="ESP 32"
+                                className="mx-auto w-[200px] lg:w-[400px] p-8"
+                            />
+                            <p className="text-xl lg:text-3xl">
+                                Compete in Abbey Parks first ever Computer
+                                Engineering Competition, submit a creation using
+                                an Arduino or something to win.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="h-[300px] lg:h-[200px] w-full mt-14 mb-0 group">
+                <div className="h-[300px] lg:h-[200px] bg-gradient-to-r from-yellow-400 to-red-500 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
                 <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
                     <h3 className="text-xl text-center text-white lg:text-2xl">
                         November 13th - December 4th
                     </h3>
                 </div>
-            </section> */}
+            </section>
         </main>
     );
 }
