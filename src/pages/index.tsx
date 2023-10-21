@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import IcSVG from "@/assets/ic.svg";
 import ESP32 from "@/assets/esp32.png";
+import Arduino from "@/assets/arduino.png";
+import Makeblock from "@/assets/makeblock.png";
 
 export default function Home() {
     return (
@@ -56,7 +58,7 @@ export default function Home() {
                 id="prizes"
                 className="w-[400px] lg:w-full flex flex-col justify-center content-center flex-wrap"
             >
-                <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto">
                     <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                     <div className="relative z-20 w-full h-full p-12 bg-black">
                         <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
@@ -70,50 +72,48 @@ export default function Home() {
                             className="mx-auto w-[200px] lg:w-[400px] p-8"
                         />
                         <p className="text-xl lg:text-3xl">
-                            Compete in Abbey Parks first ever Computer
-                            Engineering Competition, submit a creation using an
-                            Arduino or something to win.
+                            Win an ESP32 with over
                         </p>
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
-                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[410px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-fuchsia-500 to-emerald-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                         <div className="relative z-20 w-full h-full p-12 bg-black">
-                            <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
+                            <div className="bg-gradient-to-r from-fuchsia-500 to-emerald-500 bg-clip-text">
                                 <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
-                                    First Prize
+                                    Runner Up
                                 </h2>
                             </div>
-                            <Image
-                                src={ESP32}
-                                alt="ESP 32"
-                                className="mx-auto w-[200px] lg:w-[400px] p-8"
-                            />
+                            <div className="w-full">
+                                <Image
+                                    src={Arduino}
+                                    alt="ESP 32"
+                                    className="mx-auto w-[200px] lg:w-[300px] p-8"
+                                />
+                            </div>
                             <p className="text-xl lg:text-3xl">
-                                Compete in Abbey Parks first ever Computer
-                                Engineering Competition, submit a creation using
-                                an Arduino or something to win.
+                                Runner Up Prize
                             </p>
                         </div>
                     </div>
-                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
-                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                    <div className="h-[480px] w-[350px] lg:h-[580px] lg:w-[410px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                        <div className="absolute h-[480px] w-[350px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-indigo-600 to-amber-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                         <div className="relative z-20 w-full h-full p-12 bg-black">
-                            <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
+                            <div className="bg-gradient-to-r from-indigo-600 to-amber-500 bg-clip-text">
                                 <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
-                                    First Prize
+                                    Creativity Prize
                                 </h2>
                             </div>
-                            <Image
-                                src={ESP32}
-                                alt="ESP 32"
-                                className="mx-auto w-[200px] lg:w-[400px] p-8"
-                            />
+                            <div className="w-full">
+                                <Image
+                                    src={Makeblock}
+                                    alt="Makeblock"
+                                    className="mx-auto w-[200px] lg:w-[500px]"
+                                />
+                            </div>
                             <p className="text-xl lg:text-3xl">
-                                Compete in Abbey Parks first ever Computer
-                                Engineering Competition, submit a creation using
-                                an Arduino or something to win.
+                                Creativity Prize
                             </p>
                         </div>
                     </div>
