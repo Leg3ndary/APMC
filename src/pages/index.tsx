@@ -54,6 +54,19 @@ export default function Home() {
                     </p>
                 </div>
             </section>
+            <section className="h-[360px] w-[350px] lg:h-[300px] lg:w-[900px] m-20 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                <div className="absolute h-[360px] w-[350px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-red-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="relative z-20 w-full h-full p-12 bg-black">
+                    <div className="bg-gradient-to-r from-cyan-400 to-red-500 bg-clip-text">
+                        <h2 className="p-1 mb-6 text-2xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
+                            Completely Asynchronous
+                        </h2>
+                    </div>
+                    <p className="text-xl lg:text-3xl">
+                        Work on your project at your own pace
+                    </p>
+                </div>
+            </section>
             <section
                 id="prizes"
                 className="w-[400px] lg:w-full flex flex-col justify-center content-center flex-wrap"
