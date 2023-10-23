@@ -69,7 +69,7 @@ export default function Home() {
                     </div>
                     <p className="text-xl lg:text-3xl">
                         Work on your project at your own pace, just make sure
-                        you submit your project by the deadline! We'll also be
+                        you submit your project by the deadline! We&apos;ll also be
                         hosting weekly meetings Monday after school in room 225
                         to help you!
                     </p>
