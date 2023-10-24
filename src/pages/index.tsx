@@ -79,8 +79,8 @@ export default function Home() {
                 id="prizes"
                 className="w-full lg:w-full flex flex-col justify-center content-center flex-wrap"
             >
-                <div className="h-[480px] w-[320px] lg:h-[590px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto">
-                    <div className="absolute h-[480px] w-[320px] lg:h-[590px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="h-[510px] w-[320px] lg:h-[590px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto">
+                    <div className="absolute h-[510px] w-[320px] lg:h-[590px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                     <div className="relative z-20 w-full h-full p-12 bg-black">
                         <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
                             <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
