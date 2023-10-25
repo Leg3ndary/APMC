@@ -12,7 +12,7 @@ export default function Home() {
                 <title>APMC</title>
             </Head>
             <section className="h-[400px] w-full lg:mb-14 group">
-                <div className="h-[400px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
+                <div className="h-[400px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl transform-gpu group-hover:blur-3xl duration-1000 ease-in-out"></div>
                 <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
                     <div className="flex flex-row flex-wrap content-center justify-center">
                         <Image
@@ -45,7 +45,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="h-[400px] w-[320px] lg:h-[300px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mt-20">
-                <div className="absolute h-[400px] w-[320px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-red-600 to-purple-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="absolute h-[400px] w-[320px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-red-600 to-purple-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-red-600 to-purple-500 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -60,7 +60,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="h-[390px] w-[320px] lg:h-[320px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
-                <div className="absolute h-[390px] w-[320px] lg:h-[320px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-red-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                <div className="absolute h-[390px] w-[320px] lg:h-[320px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-red-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-cyan-400 to-red-500 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -69,18 +69,18 @@ export default function Home() {
                     </div>
                     <p className="text-xl lg:text-3xl">
                         Work on your project at your own pace, just make sure
-                        you submit your project by the deadline! We&apos;ll also be
-                        hosting weekly meetings Monday after school in room 225
-                        to help you!
+                        you submit your project by the deadline! We&apos;ll also
+                        be hosting weekly meetings Monday after school in room
+                        225 to help you!
                     </p>
                 </div>
             </section>
             <section
                 id="prizes"
-                className="w-full lg:w-full flex flex-col justify-center content-center flex-wrap"
+                className="flex flex-col flex-wrap content-center justify-center w-full lg:w-full"
             >
                 <div className="h-[510px] w-[320px] lg:h-[590px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto">
-                    <div className="absolute h-[510px] w-[320px] lg:h-[590px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                    <div className="absolute h-[510px] w-[320px] lg:h-[590px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-cyan-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                     <div className="relative z-20 w-full h-full p-12 bg-black">
                         <div className="bg-gradient-to-r from-yellow-300 to-cyan-500 bg-clip-text">
                             <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -99,9 +99,9 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                <div className="w-full flex flex-col justify-center lg:flex-row">
+                <div className="flex flex-col justify-center w-full lg:flex-row">
                     <div className="h-[420px] w-[320px] lg:h-[580px] lg:w-[410px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto lg:mx-10">
-                        <div className="absolute h-[420px] w-[320px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-fuchsia-500 to-emerald-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                        <div className="absolute h-[420px] w-[320px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-fuchsia-500 to-emerald-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                         <div className="relative z-20 w-full h-full p-12 bg-black">
                             <div className="bg-gradient-to-r from-fuchsia-500 to-emerald-500 bg-clip-text">
                                 <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -122,7 +122,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="h-[420px] w-[320px] lg:h-[580px] lg:w-[410px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mx-auto lg:mx-10">
-                        <div className="absolute h-[420px] w-[320px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-indigo-600 to-amber-500 blur-xl group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+                        <div className="absolute h-[420px] w-[320px] lg:h-[580px] lg:w-[400px] bg-gradient-to-r from-indigo-600 to-amber-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                         <div className="relative z-20 w-full h-full p-12 bg-black">
                             <div className="bg-gradient-to-r from-indigo-600 to-amber-500 bg-clip-text">
                                 <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -144,7 +144,7 @@ export default function Home() {
                 </div>
             </section>
             <section className="h-[300px] lg:h-[200px] w-full mt-14 mb-0 group">
-                <div className="h-[300px] lg:h-[200px] bg-gradient-to-r from-cyan-500 to-fuchsia-400 w-full absolute blur-xl group-hover:blur-3xl duration-1000 ease-in-out"></div>
+                <div className="h-[300px] lg:h-[200px] bg-gradient-to-r from-cyan-500 to-fuchsia-400 w-full absolute blur-xl transform-gpu group-hover:blur-3xl duration-1000 ease-in-out"></div>
                 <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black lg:flex-row opacity-90">
                     <div className="bg-gradient-to-r from-cyan-400 to-red-500 bg-clip-text">
                         <h3 className="text-xl text-center text-transparent lg:text-2xl">
