@@ -39,20 +39,20 @@ export default function Home() {
                             href="https://forms.gle/ZbmUv6H9VpPaJU2E6"
                             target="_blank"
                         >
-                            <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl hover:scale-125 hover:text-green-400">
+                            <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-green-400">
                                 Register
                             </button>
                         </a>
                         <Link href="/rules">
-                            <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-cyan-400 lg:text-4xl rounded-xl hover:scale-125 hover:text-cyan-400">
+                            <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-cyan-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-cyan-400">
                                 Rules
                             </button>
                         </Link>
                     </div>
                 </div>
             </section>
-            <section className="h-[400px] w-[320px] lg:h-[300px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mt-20">
-                <div className="absolute h-[400px] w-[320px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-red-600 to-purple-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+            <section className="h-[420px] w-[320px] lg:h-[300px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mt-20">
+                <div className="absolute h-[420px] w-[320px] lg:h-[300px] lg:w-[900px] bg-gradient-to-r from-red-600 to-purple-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-red-600 to-purple-500 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -60,14 +60,14 @@ export default function Home() {
                         </h2>
                     </div>
                     <p className="text-xl lg:text-3xl">
-                        Compete in Abbey Park&apos;s first ever Computer Engineering
-                        Competition, submit a creation using an Arduino or any
-                        Microcontroller to win prizes!
+                        Compete in Abbey Park&apos;s first ever Computer
+                        Engineering Competition, submit a creation using an
+                        Arduino or any Microcontroller to win prizes!
                     </p>
                 </div>
             </section>
-            <section className="h-[390px] w-[320px] lg:h-[320px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
-                <div className="absolute h-[390px] w-[320px] lg:h-[320px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-green-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+            <section className="h-[420px] w-[320px] lg:h-[320px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110">
+                <div className="absolute h-[420px] w-[320px] lg:h-[320px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-green-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-cyan-400 to-green-500 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">

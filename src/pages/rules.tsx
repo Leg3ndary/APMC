@@ -36,20 +36,20 @@ export default function Rules() {
                             href="https://forms.gle/ZbmUv6H9VpPaJU2E6"
                             target="_blank"
                         >
-                            <button className="px-8 py-2 mt-8 text-2xl transition duration-500 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl hover:scale-125 hover:text-green-400">
+                            <button className="px-8 py-2 mt-8 text-2xl transition duration-500 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-green-400">
                                 Register
                             </button>
                         </a>
                         <Link href="/">
-                            <button className="px-8 py-2 mt-8 text-2xl transition duration-500 ease-in-out border-2 border-fuchsia-400 lg:text-4xl rounded-xl hover:scale-125 hover:text-fuchsia-400">
+                            <button className="px-8 py-2 mt-8 text-2xl transition duration-500 ease-in-out border-2 border-fuchsia-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-fuchsia-400">
                                 Home
                             </button>
                         </Link>
                     </div>
                 </div>
             </section>
-            <section className="h-[18 00px] w-[320px] lg:h-[1400px] lg:w-[900px] m-10 group transition duration-1000 ease-in-out hover:scale-105 mt-20">
-                <div className="absolute h-[1800px] w-[320px] lg:h-[1400px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-700 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+            <section className="h-[1840px] w-[320px] lg:h-[1400px] lg:w-[900px] m-10 group transition duration-1000 ease-in-out hover:scale-105 mt-20">
+                <div className="absolute h-[1840px] w-[320px] lg:h-[1400px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-700 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -61,10 +61,13 @@ export default function Rules() {
                             1.{" "}
                         </span>
                         <span className="text-xl lg:text-4xl">
-                            Do not plagiarize or copy anyone else&apos;s work,
-                            you are still free to use code snippets, public
-                            libraries, and other resources, but please use
-                            common sense.
+                            <span className="font-bold text-transparent">
+                                Do not plagiarize or copy anyone else&apos;s
+                                work.
+                            </span>{" "}
+                            You are still free to use code snippets, public
+                            libraries, and other resources, but ask us
+                            beforehand if you&apos;re unsure.
                         </span>
                     </div>
                     <br />
@@ -73,10 +76,17 @@ export default function Rules() {
                             2.{" "}
                         </span>
                         <span className="text-xl lg:text-4xl">
-                            Your project must be submitted by 6:00 PM EST on
-                            December 4th, 2023. Submissions will be done through
-                            a Google Form posted on the website, please record a
-                            short (1-5 minute) video of your project!
+                            Your project must be submitted by{" "}
+                            <span className="font-bold text-transparent">
+                                6:00 PM EST
+                            </span>{" "}
+                            on{" "}
+                            <span className="font-bold text-transparent">
+                                December 4th, 2023.
+                            </span>{" "}
+                            Submissions will be done through a Google Form
+                            posted on the website, please record a short (1-5
+                            minute) video of your project!
                         </span>
                     </div>
                     <br />
@@ -88,8 +98,10 @@ export default function Rules() {
                             Your project must contain a computer engineering
                             related component, whether that be a digital logic
                             circuit, a regular electrical circuit, or a
-                            microcontroller circuit. Singular C programs do not
-                            count.
+                            microcontroller circuit.{" "}
+                            <span className="font-bold text-transparent">
+                                Independant programs are not allowed.
+                            </span>
                         </span>
                     </div>
                     <br />
@@ -99,9 +111,11 @@ export default function Rules() {
                         </span>
                         <span className="text-xl lg:text-4xl">
                             Teams may be formed with 1-4 people, working solo is
-                            fine, however all team members must be attending
-                            Abbey Park High School for the 2023/2024 school
-                            year.
+                            fine, however all team members must be attending{" "}
+                            <span className="font-bold text-transparent">
+                                Abbey Park High School
+                            </span>{" "}
+                            for the 2023/2024 school year.
                         </span>
                     </div>
                     <br />
@@ -111,10 +125,16 @@ export default function Rules() {
                         </span>
                         <span className="text-xl lg:text-4xl">
                             You can use anything at your disposal to create your
-                            project, we will have components and basic
-                            electrical tools available for use at our club.
-                            Items will be given out on a first come first serve
-                            basis.
+                            project, we will have{" "}
+                            <span className="font-bold text-transparent">
+                                components
+                            </span>{" "}
+                            and{" "}
+                            <span className="font-bold text-transparent">
+                                electrical tools available
+                            </span>{" "}
+                            for use at our club. Items will be lent out on a
+                            first come first serve basis.
                         </span>
                     </div>
                     <br />
@@ -125,8 +145,11 @@ export default function Rules() {
                         <span className="text-xl lg:text-4xl">
                             Judges will be the current executive team of the
                             Abbey Park Computer Engineering Club, we will have
-                            the final say in all decisions. Judging criteria
-                            will be posted soon.
+                            the{" "}
+                            <span className="font-bold text-transparent">
+                                final say in all decisions.
+                            </span>{" "}
+                            Judging criteria will be posted soon.
                         </span>
                     </div>
                 </div>
