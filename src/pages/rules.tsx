@@ -100,7 +100,7 @@ export default function Rules() {
                             circuit, a regular electrical circuit, or a
                             microcontroller circuit.{" "}
                             <span className="font-bold text-transparent">
-                                Independant programs are not allowed.
+                                Independent programs are not allowed.
                             </span>
                         </span>
                     </div>
