@@ -112,7 +112,7 @@ export default function Rules() {
                         <span className="text-xl lg:text-4xl">
                             You can use anything at your disposal to create your
                             project, we will have components and basic
-                            electircal tools available for use at our club.
+                            electrical tools available for use at our club.
                             Items will be given out on a first come first serve
                             basis.
                         </span>
