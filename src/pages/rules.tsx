@@ -48,8 +48,8 @@ export default function Rules() {
                     </div>
                 </div>
             </section>
-            <section className="h-[1840px] w-[320px] lg:h-[1400px] lg:w-[900px] m-10 group transition duration-1000 ease-in-out hover:scale-105 mt-20">
-                <div className="absolute h-[1840px] w-[320px] lg:h-[1400px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-700 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+            <section className="h-[1950px] w-[320px] lg:h-[1500px] lg:w-[900px] m-10 group transition duration-1000 ease-in-out hover:scale-105 mt-20">
+                <div className="absolute h-[1950px] w-[320px] lg:h-[1500px] lg:w-[900px] bg-gradient-to-r from-cyan-400 to-purple-700 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
@@ -67,7 +67,12 @@ export default function Rules() {
                             </span>{" "}
                             You are still free to use code snippets, public
                             libraries, and other resources, but ask us
-                            beforehand if you&apos;re unsure.
+                            beforehand if you&apos;re unsure. AI Assistance in
+                            writing code is{" "}
+                            <span className="font-bold text-transparent">
+                                heavily discouraged,
+                            </span>{" "}
+                            refer to rule 6 for more information.
                         </span>
                     </div>
                     <br />
