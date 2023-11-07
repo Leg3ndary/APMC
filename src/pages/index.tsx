@@ -163,7 +163,7 @@ export default function Home() {
                             </div>
                             <p className="text-xl lg:text-3xl">
                                 Awarded to the second best project submitted,
-                                win an Arduino R3!
+                                an Arduino R3!
                             </p>
                         </div>
                     </div>
