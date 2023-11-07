@@ -55,8 +55,6 @@ export default function Rules() {
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
                             Competition Rules
                         </h2>
-                    </div>
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             1.{" "}
                         </span>
@@ -74,9 +72,8 @@ export default function Rules() {
                             </span>{" "}
                             refer to rule 6 for more information.
                         </span>
-                    </div>
-                    <br />
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
+                        <br />
+                        <br />
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             2.{" "}
                         </span>
@@ -93,9 +90,8 @@ export default function Rules() {
                             posted on the website, please record a short (1-5
                             minute) video of your project!
                         </span>
-                    </div>
-                    <br />
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
+                        <br />
+                        <br />
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             3.{" "}
                         </span>
@@ -108,9 +104,8 @@ export default function Rules() {
                                 Independent programs are not allowed.
                             </span>
                         </span>
-                    </div>
-                    <br />
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
+                        <br />
+                        <br />
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             4.{" "}
                         </span>
@@ -122,9 +117,8 @@ export default function Rules() {
                             </span>{" "}
                             for the 2023/2024 school year.
                         </span>
-                    </div>
-                    <br />
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
+                        <br />
+                        <br />
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             5.{" "}
                         </span>
@@ -141,9 +135,8 @@ export default function Rules() {
                             for use at our club. Items will be lent out on a
                             first come first serve basis.
                         </span>
-                    </div>
-                    <br />
-                    <div className="bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text">
+                        <br />
+                        <br />
                         <span className="p-1 mb-6 text-xl font-bold text-center text-transparent lg:text-4xl group-drop-shadow-lg">
                             6.{" "}
                         </span>
