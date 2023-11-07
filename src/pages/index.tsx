@@ -82,8 +82,8 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-            <section className="h-[420px] w-[320px] lg:h-[650px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mt-10">
-                <div className="absolute h-[420px] w-[320px] lg:h-[650px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-red-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
+            <section className="h-[890px] w-[320px] lg:h-[650px] lg:w-[900px] m-10 group hover:-translate-y-2 transition duration-1000 ease-in-out hover:scale-110 mt-10">
+                <div className="absolute h-[890px] w-[320px] lg:h-[650px] lg:w-[900px] bg-gradient-to-r from-yellow-300 to-red-500 blur-xl transform-gpu group-hover:blur-3xl transition ease-in-out duration-1000"></div>
                 <div className="relative z-20 w-full h-full p-12 bg-black">
                     <div className="bg-gradient-to-r from-yellow-300 to-red-500 bg-clip-text">
                         <h2 className="p-1 mb-6 text-4xl font-bold text-center text-transparent lg:text-6xl group-drop-shadow-lg">
