@@ -96,7 +96,7 @@ export default function Home() {
                         </span>
                         <span className="text-xl lg:text-4xl">
                             How creative and original of an idea the project is
-                            (regardless of end result)?
+                            (regardless of end result)
                         </span>
                         <br />
                         <br />
@@ -115,7 +115,7 @@ export default function Home() {
                         <span className="text-xl lg:text-4xl">
                             Can the project be reasonably applied to a practical
                             situation? If you made a game, how fun is it? How
-                            creative and original of an idea the project is
+                            creative and original of an idea is the project
                             (regardless of end result)?
                         </span>
                     </div>
