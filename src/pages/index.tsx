@@ -62,7 +62,7 @@ export default function Home() {
                     <p className="text-xl lg:text-3xl">
                         Compete in Abbey Park&apos;s first ever Computer
                         Engineering Competition, submit a creation using an
-                        Arduino or any Microcontroller to win prizes!
+                        Arduino or any microcontroller to win prizes!
                     </p>
                 </div>
             </section>
