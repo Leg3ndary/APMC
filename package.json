@@ -9,10 +9,12 @@
         "lint": "prettier --write ."
     },
     "dependencies": {
+        "framer-motion": "^10.16.12",
         "next": "latest",
         "prettier": "^3.0.3",
         "react": "latest",
-        "react-dom": "latest"
+        "react-dom": "latest",
+        "react-icons": "^4.12.0"
     },
     "devDependencies": {
         "@types/node": "latest",

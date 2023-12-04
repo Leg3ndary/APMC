@@ -5,16 +5,51 @@ import IcSVG from "@/assets/homeic.svg";
 import ESP32 from "@/assets/esp32.png";
 import Arduino from "@/assets/arduino.png";
 import Makeblock from "@/assets/makeblock.png";
+import { IoClose } from "react-icons/io5";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 export default function Home() {
+    const [notificationOpen, setNotificationOpen] = useState(true);
+
     return (
         <main className="flex flex-col items-center justify-between w-full min-h-screen">
             <Head>
                 <title>APMC - Home</title>
             </Head>
+            <AnimatePresence>
+                {notificationOpen && (
+                    <motion.div
+                        className=""
+                        initial={{ opacity: 0 }}
+                        transition={{ duration: 0.5, delay: 1}}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                    >
+                        <div className="fixed top-0 left-0 w-full h-14 bg-black block z-40 opacity-80" />
+                        <div className="fixed top-0 left-0 w-full h-14 z-50 flex justify-center items-center group bg-gradient-to-r from-cyan-400 to-purple-500">
+                            <p className="text-white text-2xl mx-auto bg-clip-text font-bold">
+                                Project Submissions are Open - Submit{" "}
+                                <a href="https://forms.gle/xY5njGLsctM7jDJy9" target="_blank" className="text-blue-600 underline">
+                                    here
+                                </a>
+                                .
+                            </p>
+                            <motion.div
+                                className="absolute right-2"
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.9 }}
+                                onClick={() => setNotificationOpen(false)}
+                            >
+                                <IoClose className="text-white h-10 w-10" />
+                            </motion.div>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
             <section className="h-[400px] w-full lg:mb-14 group">
                 <div className="h-[400px] bg-gradient-to-r from-cyan-400 to-purple-500 w-full absolute blur-xl transform-gpu group-hover:blur-3xl duration-1000 ease-in-out"></div>
-                <div className="relative z-20 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
+                <div className="relative z-10 flex flex-col items-center justify-center w-full h-full bg-black opacity-90">
                     <div className="flex flex-row flex-wrap content-center justify-center">
                         <Image
                             src={IcSVG}
@@ -31,7 +66,7 @@ export default function Home() {
                     </div>
                     <div className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text">
                         <h3 className="text-xl text-center text-transparent lg:text-2xl">
-                            November 13th - December 4th
+                            November 13th - December 8th
                         </h3>
                     </div>
                     <div className="flex gap-10">
