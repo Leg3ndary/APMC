@@ -159,8 +159,8 @@ export default function Rules() {
                             <span className="font-bold text-transparent">
                                 code
                             </span>{" "}
-                            to some degree so that we know you understand it's
-                            function
+                            to some degree so that we know you understand
+                            it&apos;s function
                         </span>
                     </div>
                 </div>

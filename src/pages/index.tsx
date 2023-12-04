@@ -22,7 +22,7 @@ export default function Home() {
                     <motion.div
                         className=""
                         initial={{ opacity: 0 }}
-                        transition={{ duration: 0.5, delay: 1}}
+                        transition={{ duration: 0.5, delay: 1 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                     >
@@ -30,7 +30,11 @@ export default function Home() {
                         <div className="fixed top-0 left-0 w-full h-14 z-50 flex justify-center items-center group bg-gradient-to-r from-cyan-400 to-purple-500">
                             <p className="text-white text-2xl mx-auto bg-clip-text font-bold">
                                 Project Submissions are Open - Submit{" "}
-                                <a href="https://forms.gle/xY5njGLsctM7jDJy9" target="_blank" className="text-blue-600 underline">
+                                <a
+                                    href="https://forms.gle/xY5njGLsctM7jDJy9"
+                                    target="_blank"
+                                    className="text-blue-600 underline"
+                                >
                                     here
                                 </a>
                                 .
