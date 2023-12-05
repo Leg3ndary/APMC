@@ -28,16 +28,15 @@ export default function Home() {
                     >
                         <div className="fixed top-0 left-0 w-full h-14 bg-black block z-40 opacity-80" />
                         <div className="fixed top-0 left-0 w-full h-14 z-50 flex justify-center items-center group bg-gradient-to-r from-cyan-400 to-purple-500">
-                            <p className="text-white text-2xl mx-auto bg-clip-text font-bold">
-                                Project Submissions are Open - Submit{" "}
+                            <p className="text-white text-md lg:text-2xl mx-auto bg-clip-text font-medium lg:font-bold">
+                                Project Submissions are Open -{" "}
                                 <a
                                     href="https://forms.gle/xY5njGLsctM7jDJy9"
                                     target="_blank"
                                     className="text-blue-600 underline"
                                 >
-                                    here
+                                    Submit
                                 </a>
-                                .
                             </p>
                             <motion.div
                                 className="absolute right-2"
@@ -45,7 +44,7 @@ export default function Home() {
                                 whileTap={{ scale: 0.9 }}
                                 onClick={() => setNotificationOpen(false)}
                             >
-                                <IoClose className="text-white h-10 w-10" />
+                                <IoClose className="text-white h-10 w-10 cursor-pointer" />
                             </motion.div>
                         </div>
                     </motion.div>
