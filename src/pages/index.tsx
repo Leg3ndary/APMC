@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 export default function Home() {
-    const [notificationOpen, setNotificationOpen] = useState(true);
+    const [notificationOpen, setNotificationOpen] = useState(false);
 
     return (
         <main className="flex flex-col items-center justify-between w-full min-h-screen">
