@@ -45,6 +45,11 @@ export default function Rules() {
                                 Home
                             </button>
                         </Link>
+                        <Link href="/results">
+                            <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-fuchsia-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-fuchsia-400">
+                                Results
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
