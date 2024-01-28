@@ -73,14 +73,14 @@ export default function Results() {
                         </h3>
                     </div>
                     <div className="flex gap-10">
-                        <a
+                        {/* <a
                             href="https://forms.gle/ZbmUv6H9VpPaJU2E6"
                             target="_blank"
                         >
                             <button className="px-8 py-2 mt-8 text-2xl transition duration-300 ease-in-out border-2 border-green-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-green-400">
                                 Register
                             </button>
-                        </a>
+                        </a> */}
                         <Link href="/">
                             <button className="px-8 py-2 mt-8 text-2xl transition duration-500 ease-in-out border-2 border-fuchsia-400 lg:text-4xl rounded-xl hover:scale-110 hover:text-fuchsia-400">
                                 Home
